@@ -1,0 +1,9 @@
+name: SetHub
+version: 1.0.0
+author: inconito001
+main: fr.inconito001.com.Sethub
+commands:
+  sethub:
+    description: set the hub spawn.
+  hub:
+    description: teleport to hub spawn.

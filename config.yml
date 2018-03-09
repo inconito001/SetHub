@@ -1,0 +1,13 @@
+#//////////////////////////////////////////////////#
+#                                                  #
+#               SetHub by inconito001              #
+#                       1.0.0                      #
+#                                                  #
+#//////////////////////////////////////////////////#
+Config:
+  Hub_Location:
+  Messages:
+    NoPermission: "&cYou do not have permission!"
+    SetSucess: "&6has been &asuccessfully &6set &c!"
+    NoSetHub: "&4The hub has not been &6set &4yet &8!"
+    TpToHub: "&eYou have been &6teleported &eto the &6Hub &8!"
