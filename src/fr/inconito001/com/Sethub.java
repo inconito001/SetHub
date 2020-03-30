@@ -15,8 +15,8 @@ public class Sethub extends JavaPlugin {
 	public void onEnable() {
 		saveDefaultConfig();
 		instance = this;
-		RegisterCommands();
-		RegisterEvents();
+		registerCommands();
+		registerEvents();
 	}
 	
 	@Override
@@ -24,12 +24,12 @@ public class Sethub extends JavaPlugin {
 		
 	}	
 	
-	private void RegisterCommands() {
+	private void registerCommands() {
 		getCommand("sethub").setExecutor(new SetHubCmd());
 		getCommand("hub").setExecutor(new HubCmd());
 	}
 	
-	private void RegisterEvents() {
+	private void registerEvents() {
 		PluginManager pm = getServer().getPluginManager();
 		
 		pm.registerEvents(new PlayerListener(), this);
